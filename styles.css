@@ -1,0 +1,88 @@
+#body {
+  background-color: whitesmoke;
+  font-size: 17px;
+  color: black;
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  background-color: orchid;
+  padding: 15px;
+  font-size: 25px;
+  color: white;
+}
+
+.login {
+  float: right;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(92, 128, 143);
+}
+
+a:hover {
+  font-size: 120%;
+}
+
+div > a {
+  text-decoration: none;
+}
+
+.titles-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  background-color: paleturquoise;
+  overflow: auto;
+}
+
+#details {
+  display: flex;
+  margin: 0 50px;
+  padding: 0 10px;
+  font-size: 13px;
+}
+
+.titles {
+  margin: 0 12px;
+  padding: 0 10px;
+}
+
+.scores,
+.user,
+.time,
+.hide,
+.comments {
+  margin: 0 7px;
+  padding: 0;
+}
+
+.top-y {
+  height: 30px;
+  width: 30px;
+  margin-right: 15px;
+  border: 3px whitesmoke solid;
+}
+
+#login {
+  float: right;
+  color: whitesmoke;
+}
+
+#hacker,
+#new,
+#past,
+#comments,
+#ask,
+#show,
+#jobs,
+#submit,
+#login {
+  color: whitesmoke;
+}
